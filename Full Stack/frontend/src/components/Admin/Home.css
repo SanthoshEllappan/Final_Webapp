@@ -1,0 +1,80 @@
+body {
+    background-color: #E2F1E7; /* Main background color */
+    font-family: Arial, sans-serif;
+    color: #3a4e69; /* Default text color */
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 2px;
+    max-width: 1600px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    background-color: #E2F1E7; /* Background color */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+h2 {
+    color: #3a4e69;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #3a4e69;
+    padding-bottom: 4px;
+}
+
+.p-datatable {
+    background: #ffffff; /* White background for tables */
+    border-radius: 8px;
+}
+
+.p-datatable .p-datatable-header {
+    background: #E2F1E7;
+    color: #3a4e69;
+    font-weight: bold;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background: #E2F1E7;
+    color: #3a4e69;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    color: #3a4e69;
+}
+
+.p-datatable-tbody tr:nth-child(even) {
+    background-color: #f4f9f6; /* Slightly darker for alternating rows */
+}
+
+.p-datatable-tbody tr:hover {
+    background-color: #d3e7dd; /* Hover effect */
+}
+
+.p-datatable .p-paginator {
+    background: #E2F1E7;
+    color: #3a4e69;
+}
+
+.sidebar {
+    background-color: #f4f9f6; /* Lighter green for sidebar */
+    color: #3a4e69;
+    border-right: 2px solid #3a4e69;
+}
+
+.header {
+    background-color: #3a4e69; /* Darker for header */
+    color: #E2F1E7;
+    padding: 16px;
+    text-align: center;
+}
+
+button, .p-button {
+    background-color: #3a4e69;
+    color: #E2F1E7;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover, .p-button:hover {
+    background-color: #2c3b54; /* Darker shade for hover */
+    color: #ffffff;
+}

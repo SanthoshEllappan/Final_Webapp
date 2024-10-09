@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    border-right: 1px solid #ccc;
+    height: 100vh; /* Ensures the sidebar fills the page height */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .main-content {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .sidebar-item {
+    cursor: pointer;
+    padding: 15px 10px; /* Adjust padding as needed */
+    transition: background 0.3s; /* Optional: adds a smooth background transition */
+}
+
+.sidebar-item:hover {
+    background: #e0e0e0; /* Optional: adds a hover effect */
+}
